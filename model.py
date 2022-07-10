@@ -41,5 +41,5 @@ classifier = LogisticRegression()
 classifier.fit(X, y)
 model = [cv, classifier]
 with open("model_nlp.pkl", "wb") as f:
-pickle.dump(model, f)
+   pickle.dump(model, f)
 
